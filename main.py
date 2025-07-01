@@ -1,6 +1,5 @@
 import streamlit as st
 from pypdf import PdfMerger
-import os
 from tempfile import NamedTemporaryFile
 
 st.set_page_config(page_title="PDF Merger", layout="centered")
